@@ -21,6 +21,8 @@
 
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
+	
+	<script src="float-panel.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,7 +52,7 @@
 
             <div class="about-text">
                 <p>
-                    I'm a creative problem solver and technology enthusiast, constantly exploring new ways to apply technology to seamlessly improve every day life. I just recently graduated from University of California, Irvine in December with a B.S. in Computer Science.
+                    I'm a creative problem solver and technology enthusiast, constantly exploring new ways to apply technology to seamlessly improve every day life. I graduated from University of California, Irvine in December with a B.S. in Computer Science.
                 </p>
 
                 <p>Constantly looking to improve and learn more about the growing technology around us.</p>
@@ -74,7 +76,6 @@
     <!-- .header-->
 </div>
 <!-- .left-col-block -->
-
 
 <div class="right-col-block blocks">
 <div class="theiaStickySidebar">
@@ -159,7 +160,7 @@
                 <div class="content-item">
                     <small>April 2019</small>
                     <h3><a href="https://devpost.com/software/spectatexr">SpectateXR</a> - AT&T SHAPE Hackathon (4th Place)</h3>
-                    <h4></h4>
+                    <h4>Prototype of a futuristic 5G enabled AR/VR eSports spectating experience for at home users. Utilizing AR/VR users can control their own spectating experience by following specifics players of interest and giving them the freedom of perspective. In addition, embedded 360 video livestreams can be broadcasted and viewed through VR to experience the live eSports event.</h4>
 
                     <p>Los Angeles, CA</p>
                 </div>
@@ -175,7 +176,7 @@
                 <div class="content-item">
                     <small>January 2019</small>
                     <h3>Getac Mobile Product Display Application</h3>
-                    <h4></h4>
+                    <h4>Universal Windows Platform application developed for client to utilize as an interactive mobile app product showcase at various tradeshows.</h4>
 					<br/>
                     <p>Los Angeles, CA</p>
                 </div>
@@ -196,15 +197,27 @@
                 </div>
             </div>
         </div><br/>
-		<div class="content-item">
-			<ul>
-			<li>Unity</li>
-			<li>Oculus</li> 
-			<li>HTC Vive</li> 
-			<li>ARKit</li> 
-			<li>ARCore</li>
-			<li>Magic Leap</li>
-			</ul>
+		<div class="row">
+			<div class="col-md-4">
+				<h3> Virtual Reality </h3>
+				<ul>
+				<li>Unity</li>
+				<li>Oculus (Rift, Go)</li> 
+				<li>HTC Vive</li>
+				<li>SteamVR</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h3> Augmented/Mixed Reality </h3>
+				<ul>
+					<li>ARKit</li> 
+					<li>ARCore</li>
+					<li>ARFoundation</li>
+					<li>Magic Leap</li>
+					<li>HoloLens</li>
+				</ul>
+			</div>
+			
 		</div>
 	
     <!-- .container-fluid -->
@@ -225,7 +238,7 @@
                 <div class="content-item">
                     <small>May 2019 - Present</small>
                     <h3>Junior AR/VR Developer</h3>
-                    <h4><a href="http://www.arcortex.com/" style="color: #cc0000">ARCortex</a></h4>
+                    <h4>ARCortex</h4>
 
                     <p>Los Angeles, CA</p>
                 </div>
@@ -451,7 +464,8 @@
 
 
                 </div>
-			<i class="fa fa-arrow-up fa-lg" aria-hidden="true" text-align="right"></i>
+			<div id="backtop">&#9650;</div>
+
             </div>
             <!--.row-->
         </div>
